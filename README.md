@@ -41,6 +41,8 @@ Everytime we upload files to github we have to communicate this in the Slack cha
 
 To having meetings, we use zoom to chat and work in this project.
 
+ #### Bibliography
+ 
 <sup> 1 <sup>     
 
 Hawkins, Ahmed, Roorda, & Habib (2022), Measuring the process of urban gentrification: A composite measure of the gentrification process in Toronto. Cities, Volume 126, Available in: https://doi.org/10.1016/j.cities.2022.103708 
