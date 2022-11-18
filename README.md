@@ -60,7 +60,8 @@ Washington Post (2022), Airbnb agrava una crisis de vivienda que ya existía en 
  Gobierno de la Ciudad de México (2022), Información Catastral de la Ciudad de México. Available in: https://datos.cdmx.gob.mx/dataset/informacion-catastral-de-la-ciudad-de-mexico
 
 <sup> 5 <sup>
- 
+
+Inside Airbnb (2022), Get Data. Mexico City, Distrito Federal, Mexico. Available in: http://insideairbnb.com/get-the-data/
  
 <sup> 6 <sup>
 
