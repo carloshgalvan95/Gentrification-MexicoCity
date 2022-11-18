@@ -32,6 +32,25 @@ Then, with the data, the analysis and the deployment of the models, we want to a
 
 - Could the presence of high value business accelerate the process of gentrification?
 
+## Machine Learning Model
+
+The chosen model to use for this prediction of value price given the amount of Airbnbs and Starbucks nearby within a set radius from the property is a Multiple Regression model. The reason for choosing this type of model is given that we expect to predict a numeric value in the form of property price.
+
+The metodology is quite straightforward:
+1. First parsing every row of our property database (db_catastro.csv) using Google Maps Geocoding API, declaring in the parameters the type : *Cafe* then using regex, determining if the cafe found is indeed an starbucks, counting how many we can find for every property.
+
+2. Then using our airbnb database (airbnb.csv) with the values of latitude and longitude, utilizing once again the geocoding API and pairing it with our property databse to parse for Airbnbs within the radius chosen and counting how many we can find for each.
+
+3. Finally appending those two values into columns in our catastro_df Pandas DataFrame.
+
+4. Declare independent variables in *X* (Number of Starbucks per property, Number of Airbnbs per property).
+
+5. Declaring our target variable in *y* (Property Value).
+
+6. Splitting our data into train and test groups.
+
+7. Generating and fitting the model to then also generate our predictions.
+
 
 ## Communications Protocol
 
