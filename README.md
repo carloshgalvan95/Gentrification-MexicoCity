@@ -43,9 +43,9 @@ The metodology is quite straightforward:
 
 3. Finally appending those two values into columns in our catastro_df Pandas DataFrame.
 
-4. Declare independent variables in *X* (Number of Starbucks per property, Number of Airbnbs per property).
+4. Declare independent variables in **X** (Number of Starbucks per property, Number of Airbnbs per property).
 
-5. Declaring our target variable in *y* (Property Value).
+5. Declaring our target variable in **y** (Property Value).
 
 6. Splitting our data into train and test groups.
 
@@ -58,7 +58,7 @@ For the final project we made a chat group in Slack with all the members of the 
 
 Everytime we upload files to github we have to communicate this in the Slack chat.
 
-To have meetings, we use zoom to chat and work on this project.
+For meetings, we use zoom to chat and work on this project.
 
  #### Bibliography
  
