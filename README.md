@@ -16,7 +16,7 @@ The increase in living costs, which includes housing prices, can cause a gentrif
 
 In this context, we want to **develop machine learning models to find which areas of Mexico City are the next to experiment a gentrification process in the close future.**
 
-For this purpose, we build a database of this sources:
+For this purpose, we built a database of this sources:
 
 1. From the goverment of Mexico City, we took the open data related to the "Información Catastral de la Ciudad de México". As the cost of living, we use the mean of the unit value of land ("Valor unitario del suelo") with the zip code and the lattitude and longitude coordinates of the areas ("colonias") of Mexico City. <sup> 4 <sup>
 
