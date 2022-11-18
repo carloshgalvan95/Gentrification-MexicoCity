@@ -6,13 +6,13 @@
 
 #### Background
 
-Gentrification is often described as the change in the socioeconomics of a neighborhood, is also defined as the replacement of low-value businesses by high-value businesses. <sup> 1 <sup> 
+Gentrification is often described as the change in the socioeconomics of a neighborhood, it is also defined as the replacement of low-value businesses by high-value businesses. <sup> 1 <sup> 
 
-Recently, Mexico City goverment has signed a deal with Airbnb, the objective of this alliance is to capture 5% of the total of the digital nomads in the world to move to Mexico City. The goverment of Mexico City said that this alliance would generate an economic spill of US$1.4 billion anually to various areas of the capital, it is expected that this boost the local economy and promote the employment. <sup> 2 <sup>
+Recently, the goverment of Mexico City has signed a deal with Airbnb, the objective of this alliance is to capture 5% of the digital nomads in the world to move to Mexico City. The goverment of Mexico City said that this alliance would generate an economic spill of US$1.4 billion anually to various areas of the capital, it is expected that this will boost the local economy and promote the employment. <sup> 2 <sup>
 
-In the last 17 years, the average increase in housing prices in the Mexico City Metropolitan Area, that includes Mexico City, part of the State of Mexico and Hidalgo has been 235%, 64% above inflation, according to the Federal Mortgage Society (SHF). <sup> 3 <sup>
+In the last 17 years, the average increase in housing prices in the Mexico City Metropolitan Area, which includes Mexico City, part of the State of Mexico and Hidalgo has been 235%, 64% above inflation, according to the Federal Mortgage Society (SHF). <sup> 3 <sup>
 
-The increase of the price of living, tha includes the housing prices, can cause a gentrification process and result in the  expulsion of low-income households from the neighborhoods of greatest interest and popularity opens the door to real estate speculation.
+The increase in living costs, which includes housing prices, can cause a gentrification process and result in the expulsion of low-income households from the neighborhoods of greatest interest and popularity opens the door to real estate speculation.
 
 In this context, we want to **develop machine learning models to find which areas of Mexico City are the next to experiment a gentrification process in the close future.**
 
