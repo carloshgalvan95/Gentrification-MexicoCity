@@ -16,49 +16,30 @@ The increase in living costs, which includes housing prices, can cause a gentrif
 
 In this context, we want to **develop machine learning models to find which areas of Mexico City are the next to experiment a gentrification process in the close future.**
 
-For this purpose, we built a database of this sources:
+For this purpose, we built a database based on these sources:
 
-1. From the goverment of Mexico City, we took the open data related to the "Información Catastral de la Ciudad de México". As the cost of living, we use the mean of the unit value of land ("Valor unitario del suelo") with the zip code and the lattitude and longitude coordinates of the areas ("colonias") of Mexico City. <sup> 4 <sup>
+1. From the goverment of Mexico City, we took the open data related to "Información Catastral de la Ciudad de México". As the cost of living, we use the mean of the unit value of land ("Valor unitario del suelo") with the zip code and the lattitude and longitude coordinates of the areas ("colonias") of Mexico City. <sup> 4 <sup>
 
-2. The Airbnb data we use for the database consist in the location of the apartments / houses / suites / lofts in Mexico City and their prices, the data comes from  <sup> 5 <sup>
+2. The Airbnb data used for the database consist of the location of the apartments / houses / suites / lofts in Mexico City and their prices, the data comes from listings <sup> 5 <sup>
 
-3. As a feature of gentrification, we use the number of startbucks and their locations, the data are from the Starbucks Locations Worldwide database. <sup> 6 <sup>
+3. As a measure of gentrification, we use the number of startbucks and their locations, the data are from the Starbucks Locations Worldwide database. <sup> 6 <sup>
 
-Then, with the data, the analysis and the deploy of the models, we want to answer the following questions:
+Then, with the data, the analysis and the deployment of the models, we want to answer the following questions:
 
 - Which areas of Mexico City could be gentrificated?
 
 - How much the value of land could change?
 
-- The presence of high value business could accelerate the process of gentrification?
-
-## Machine Learning Model
-
-The chosen model to use for this prediction of value price given the amount of Airbnbs and Starbucks nearby within a set radius from the property is a Multiple Regression model. The reason for choosing this type of model is given that we expect to predict a numeric value in the form of property price.
-
-The metodology is quite straightforward:
-1. First parsing every row of our property database (db_catastro.csv) using Google Maps Geocoding API, declaring in the parameters the type : *Cafe* then using regex, determining if the cafe found is indeed an starbucks, counting how many we can find for every property.
-
-2. Then using our airbnb database (airbnb.csv) with the values of latitude and longitude, utilizing once again the geocoding API and pairing it with our property databse to parse for Airbnbs within the radius chosen and counting how many we can find for each.
-
-3. Finally appending those two values into columns in our catastro_df Pandas DataFrame.
-
-4. Declare independent variables in *X* (Number of Starbucks per property, Number of Airbnbs per property).
-
-5. Declaring our target variable in *y* (Property Value).
-
-6. Splitting our data into train and test groups.
-
-7. Generating and fitting the model to then also generate our predictions.
+- Could the presence of high value business accelerate the process of gentrification?
 
 
 ## Communications Protocol
 
-For the final project we make a chat in Slack with all the members of the team, we define this channel as the first option to communicate all our findings to the team and sharing information.
+For the final project we made a chat group in Slack with all the members of the team, we defined this channel as the first option to communicate all our findings to the team and share information.
 
 Everytime we upload files to github we have to communicate this in the Slack chat.
 
-To having meetings, we use zoom to chat and work in this project.
+To have meetings, we use zoom to chat and work on this project.
 
  #### Bibliography
  
