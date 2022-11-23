@@ -14,6 +14,8 @@ In the last 17 years, the average increase in housing prices in the Mexico City 
 
 The increase in living costs, which includes housing prices, can cause a gentrification process and result in the expulsion of low-income households from the neighborhoods of greatest interest and popularity opens the door to real estate speculation.
 
+#### Purpose of the project
+
 In this context, we want to **develop machine learning models to find which areas of Mexico City are the next to experiment a gentrification process in the close future.**
 
 For this purpose, we built a database based on these sources:
@@ -23,6 +25,8 @@ For this purpose, we built a database based on these sources:
 2. The Airbnb data used for the database consist of the location of the apartments / houses / suites / lofts in Mexico City and their prices, the data comes from listings <sup> 5 <sup>
 
 3. As a measure of gentrification, we use the number of startbucks and their locations, the data are from the Starbucks Locations Worldwide database. <sup> 6 <sup>
+
+#### Questions to answer
 
 Then, with the data, the analysis and the deployment of the models, we want to answer the following questions:
 
