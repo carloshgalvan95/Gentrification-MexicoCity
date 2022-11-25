@@ -24,7 +24,7 @@ For the presentation of the project, we start to build a presentation on Google 
 
 https://docs.google.com/presentation/d/1YHFT9PDQVyg9bSCcFzPbJHFzLh8P6WGI87o5uI_nHRg/edit?usp=share_link
 
-And we think we could develop a website to present the results, for this, we made a blueprint as a presentation on Google Slides, available in:
+And we think we could develop a website to present the results, for this, we made a blueprint available in:
 
 https://docs.google.com/presentation/d/1zOpRk0nE9PJWPsaSLRwehMwN3QzkFBS5VNJf3juwX4M/edit?usp=share_link
 
