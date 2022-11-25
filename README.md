@@ -36,4 +36,3 @@ Everytime we upload files to github we have to communicate this in the Slack cha
 
 For meetings, we use zoom to chat and work on this project.
 
-### Communications Protocol
