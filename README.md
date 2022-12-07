@@ -4,7 +4,7 @@
 
 ### Increase in cost of living in Mexico City due to gentrification process
 
-Recently, the government of Mexico City has signed a deal with Airbnb, the objective of this alliance is to capture 5% of the digital nomads in the world to move to Mexico City. The government of Mexico City said that this alliance would generate an economic spill of US$1.4 billion annually to various areas of the capital, it is expected that this will boost the local economy and promote the employment.
+Recently, the government of Mexico City has signed a deal with Airbnb, the objective of this alliance is to capture 5% of the digital nomads in the world to move to Mexico City. The government of Mexico City estimates that this alliance would generate an economic spill of US$1.4 billion annually to various areas of the capital, it is expected that this will boost the local economy and promote the employment.
 
 The increase in living costs, which includes housing prices, can cause a gentrification process and result in the expulsion of low-income households from the neighborhoods of greatest interest and popularity opens the door to real estate speculation.
 
