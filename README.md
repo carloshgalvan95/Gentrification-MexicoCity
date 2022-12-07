@@ -23,7 +23,7 @@ We been working in **develop machine learning models to find which areas of Mexi
 
 ![Grafica3.2](https://github.com/carloshgalvan95/Final-Project/blob/control/Grafica2.3.PNG)
 
-3. As a measure of gentrification, we use the number of startbucks and their locations, the database is clean now:
+3. As a measure of gentrification, we use the number of starbucks and their locations, the database is clean now:
 
 ![Grafica3.3](https://github.com/carloshgalvan95/Final-Project/blob/control/Grafica3.3.PNG)
 
