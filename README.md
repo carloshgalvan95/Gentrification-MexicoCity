@@ -27,13 +27,10 @@ We been working in **develop machine learning models to find which areas of Mexi
 
 ![Grafica3.3](https://github.com/carloshgalvan95/Final-Project/blob/control/Grafica3.3.PNG)
 
-For the presentation of the project, we start to build a presentation on Google Slides, available in:
+#### Results
 
-https://docs.google.com/presentation/d/1KVDwZxvrmHBVua4fmoQnLWtSVVsKqZxAe6XLOFHcuZ0/edit?usp=share_link
+For the results, we did a presentation of the project on Google Slides is available [here](https://docs.google.com/presentation/d/1Ap996VHbBMpeXS1RzdqjnSDFi5lZDNWeR5sFTSoFnYE/edit?usp=share_link)
 
-And we think we could develop a website to present the results, for this, we made a blueprint available in:
-
-https://docs.google.com/presentation/d/1palgctNrFLOQoGZY6-jciQjfskOqeT0uxALwWg8Vet8/edit?usp=share_link
-
+The website of the project is vailable [here](https://raulesqueda.github.io/test_web/).
 
 
