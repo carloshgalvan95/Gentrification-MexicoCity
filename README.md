@@ -1,4 +1,4 @@
-# Final-Project Deliverable 3
+# Final-Project
 
 ## Presentation
 
@@ -10,12 +10,11 @@ The increase in living costs, which includes housing prices, can cause a gentrif
 
 In this context, we want to develop machine learning models to find which areas of Mexico City are the next to experiment a gentrification process in the close future.
 
-
 #### Outline of the project
 
 We been working in **develop machine learning models to find which areas of Mexico City are the next to experiment a gentrification process in the close future**. For this purpose, we begin to create the database and starting the data exploration analysis with these preliminary results:
 
-1. For the unit value of land ("Valor unitario del suelo") with the zip code and the lattitude and longitude coordinates of the areas ("colonias") of Mexico City, we clean the data and map where the value is higher by a heatmap:
+1. For the price land unit ("Catastro") with the zip code and the lattitude and longitude coordinates of the areas ("colonias") of Mexico City, we clean the data and map where the value is higher by a heatmap:
 
 ![Grafica3.1](https://github.com/carloshgalvan95/Final-Project/blob/control/Grafica1.3.PNG)
 
@@ -23,14 +22,32 @@ We been working in **develop machine learning models to find which areas of Mexi
 
 ![Grafica3.2](https://github.com/carloshgalvan95/Final-Project/blob/control/Grafica2.3.PNG)
 
-3. As a measure of gentrification, we use the number of starbucks and their locations, the database is clean now:
+3. As a measure of high-value business we use the number of starbucks and their locations, the database is clean now:
 
 ![Grafica3.3](https://github.com/carloshgalvan95/Final-Project/blob/control/Grafica3.3.PNG)
 
 #### Results
 
-For the results, we did a presentation of the project on Google Slides is available [here](https://docs.google.com/presentation/d/1Ap996VHbBMpeXS1RzdqjnSDFi5lZDNWeR5sFTSoFnYE/edit?usp=share_link)
+After the exploratory analysis, we deploy a the prediction model, the target was predicting the unit property value of the land given its characteristics, for this we determined radius of distance how many Airbnbs the neighbourhood had nearby as well as fetching the median price for one night stay, we also gathered all the starbucks located nearby. After building our initial database we use a multiple regression model to predict our target property value of the land given:
 
-The website of the project is vailable [here](https://raulesqueda.github.io/test_web/).
+![Grafica3.4](https://github.com/carloshgalvan95/Final-Project/blob/control/Grafica3.4.png)
+
+With the predicted values, we map all the information to visualized the results. We can see in the next map the "original" price land (left) and the predicted price land (right), some areas turn more orange, that means that in this areas could experiment increases in the price land and takes to a increase of the cost of living:
+
+![Grafica3.5](https://github.com/carloshgalvan95/Final-Project/blob/control/Grafica3.5.PNG)
+
+Also we could detect which areas (Colonias) could experiment increases of the price land, we took in consideration a growth rate between the "original" price land" and the predicted price land:
+
+![Grafica3.6](https://github.com/carloshgalvan95/Final-Project/blob/control/Grafica3.6.PNG)
+
+#### Conclusions
+
+As we collected the information and the databases for the project were completed, a data cleanup had to be carried out in order to work with this information.
+
+Despite this, it was possible to develop a predictive model for the price land that provided us with useful information to be able to see which areas of Mexico City may undergo a gentrification process in the close future.
+
+For more information, we did a presentation of the project on Google Slides is available [here](https://docs.google.com/presentation/d/1Ap996VHbBMpeXS1RzdqjnSDFi5lZDNWeR5sFTSoFnYE/edit?usp=share_link)
+
+Also, we deploy a website for the project, is vailable [here](https://raulesqueda.github.io/test_web/).
 
 
